@@ -1,0 +1,16 @@
+import javax.swing.*;
+
+public class Login {
+    public Login() {
+	JFrame frame = new JFrame();
+	frame.setSize(500, 500);
+	frame.add(panel);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setVisible(true);
+	JPanel panel = new JPanel();
+    }
+    
+    public static void main(String[] args) {
+	new Login();
+    }
+}
