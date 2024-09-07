@@ -9,6 +9,7 @@ public class Login {
 	JLabel userlabel = new JLabel("Username: ");
 	userlabel.setBounds(10, 20, 80, 25);
 	JLabel passlabel = new JLabel("Password: ");
+	passlabel.setBounds(10, 50, 80, 25);
 
 	JTextField userText = new JTextField();
 	userText.setBounds(100, 20, 265, 25);
