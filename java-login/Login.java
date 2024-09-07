@@ -12,6 +12,9 @@ public class Login {
 
 	JTextField userText = new JTextField();
 	userText.setBounds(100, 20, 265, 25);
+
+	JPasswordField passText = new JPasswordField();
+	passText.setBounds(100, 50, 265, 25);
 	
 	frame.setSize(500, 500);
 	frame.add(panel);
@@ -21,6 +24,7 @@ public class Login {
 	panel.add(userlabel);
 	panel.add(passlabel);
 	panel.add(userText);
+	panel.add(passText);
 
 	frame.setVisible(true);
 	
