@@ -20,6 +20,7 @@ public class Login {
 	panel.setLayout(null);
 	panel.add(userlabel);
 	panel.add(passlabel);
+	panel.add(userText);
 
 	frame.setVisible(true);
 	
