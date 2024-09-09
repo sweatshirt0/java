@@ -53,7 +53,7 @@ public class Login implements ActionListener {
 	JPasswordField passText = new JPasswordField();
 	passText.setBounds(100, 50, 265, 25);
 
-	JButton loginbutton = new JButton();
+	JButton loginbutton = new JButton("Login");
 	loginbutton.setBounds(10, 80, 80, 25);
 	loginbutton.addActionListener(new Login());
 	
